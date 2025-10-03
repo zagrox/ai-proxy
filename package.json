@@ -1,0 +1,14 @@
+{
+  "name": "ai-proxy",
+  "version": "1.0.0",
+  "description": "AI proxy for the gemini",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@google/genai": "^1.13.0",
+    "express": "^4.19.2"
+  }
+}
